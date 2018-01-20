@@ -471,7 +471,3 @@ ex: check permission before assign
 Route::post('/home/admin/assign_role', 'HomeController@assignRole')->middleware('checkPermission:賦予角色');
 Route::post('/home/admin/assign_permission', 'HomeController@assignPermission')->middleware('checkPermission:賦予權限');
 ```
-
----
-
-## Assigning
